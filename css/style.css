@@ -18,7 +18,7 @@ body {
 }
 
 #clock {
-  margin-top: 300px;
+  margin-top: 250px;
   margin-bottom: 50px;
   font-size: 200px;
 }
@@ -47,6 +47,7 @@ body {
   width: 280px;
   height: 35px;
   border: none;
+  font-size: 30px;
   color: white;
   background: transparent;
   border-bottom: 5px solid white;
@@ -75,6 +76,18 @@ body {
   font-size: 20px;
   text-align: end;
   color: white;
+}
+
+#greeting {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+#todo-list {
+  margin-top: 30px;
+  font-size: 30px;
+  text-align: left;
+  background: linear-gradient(0.25turn, rgba(159, 152, 253, 0.15), rgba(159, 152, 253, 0.3), rgba(159, 152, 253, 0.15));
 }
 
 .bgImage {
